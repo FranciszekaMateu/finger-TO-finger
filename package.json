@@ -1,0 +1,45 @@
+{
+  "name": "fingertofinger",
+  "private": true,
+  "version": "0.0.0",
+  "proxy": "https://franciszeka-food-ordering.s3.us-east-2.amazonaws.com/",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@peertube/p2p-media-loader-core": "^1.0.15",
+    "@supabase/supabase-js": "^2.42.4",
+    "bittorrent-dht": "^11.0.5",
+    "clappr": "^0.3.13",
+    "dotenv": "^16.4.5",
+    "hls.js": "^1.5.8",
+    "p2p-media-loader-core": "^0.6.2",
+    "p2p-media-loader-hlsjs": "^0.6.2",
+    "p2p-media-loader-shaka": "^0.6.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.3",
+    "shaka-player": "^4.7.13",
+    "streamx": "^2.16.1",
+    "webtorrent": "^2.2.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.79",
+    "@types/react-dom": "^18.2.25",
+    "@vitejs/plugin-react-swc": "^3.5.0",
+    "autoprefixer": "^10.4.19",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.6",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3",
+    "vite": "^5.2.0",
+    "vite-plugin-node-polyfills": "^0.21.0",
+    "vite-plugin-windicss": "^1.9.3"
+  }
+}
